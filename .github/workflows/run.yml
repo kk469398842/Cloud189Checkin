@@ -36,5 +36,5 @@ jobs:
         SENDKEY: ${{secrets.SENDKEY}}
       with:
         timeout_minutes: 10
-        max_attempts: 3
+        max_attempts: 4
         command: npm start
